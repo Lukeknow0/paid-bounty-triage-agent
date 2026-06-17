@@ -33,8 +33,8 @@ If `8787` is already occupied, use `8791` or another local port in both commands
 
 ## Before DoraHacks Submission
 
-- [ ] Create or select a public GitHub repository.
-- [ ] Push this folder as the repository root.
+- [x] Create or select a public GitHub repository: https://github.com/Lukeknow0/paid-bounty-triage-agent
+- [x] Push this folder as the repository root.
 - [ ] Record a max 5-minute video: rules check, HTTP call, triage report, receipt, CAP replacement plan.
 - [ ] Replace the repository and video placeholders in `docs/dorahacks-submission.md`.
 - [ ] If time permits, list the agent on CROO Agent Store and replace mock settlement with real CAP SDK calls.

@@ -73,7 +73,7 @@ The README documents:
 
 ## Repository Placeholder
 
-Replace with the public repository URL before submission.
+https://github.com/Lukeknow0/paid-bounty-triage-agent
 
 ## Demo Video Placeholder
 
