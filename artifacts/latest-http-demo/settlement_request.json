@@ -1,7 +1,7 @@
 {
   "amount": 0.25,
   "asset": "USDC",
-  "created_at": "2026-06-17T13:27:33Z",
+  "created_at": "2026-06-17T14:30:01Z",
   "mode": "mock",
   "payer_wallet": "0xDEMO_PAYER_AA_WALLET",
   "provider_wallet": "0xDEMO_PROVIDER_AA_WALLET",
@@ -27,5 +27,5 @@
     "requires_human_wallet_confirmation": true,
     "secret_material_detected": false
   },
-  "settlement_request_id": "set_231cf36c82342470"
+  "settlement_request_id": "set_6f831efd3317a256"
 }

@@ -1,6 +1,6 @@
 {
   "call_id": "latest-http-demo",
-  "called_at": "2026-06-17T13:27:33Z",
+  "called_at": "2026-06-17T14:30:01Z",
   "cap_lifecycle_model": [
     "negotiate_order",
     "accept_negotiation",

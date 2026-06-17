@@ -6,7 +6,7 @@
 - Worth doing: true
 - Recommended track: Research & Intelligence Agents
 - Token estimate: 4775 tokens, notional $0.0119
-- Receipt: MOCK_SETTLED / mock-croo-265d73834407497f3690c1dc8350c50f
+- Receipt: MOCK_SETTLED / mock-croo-4a3f07125ecbf70007f2f6c8af3f1885
 - Deadline: Use conservative deadline 2026-07-09 23:59 UTC+8 (22 full days left at runtime). DoraHacks card also shows 2026-07-12 09:00.
 
 ## Reasons
