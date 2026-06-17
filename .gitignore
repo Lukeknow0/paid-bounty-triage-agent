@@ -12,3 +12,6 @@ artifacts/*
 
 # Local release bundles.
 dist/
+demo-video/*.png
+demo-video/*.txt
+demo-video/*.mp4

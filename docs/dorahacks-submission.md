@@ -81,4 +81,4 @@ https://github.com/Lukeknow0/paid-bounty-triage-agent/releases/tag/v0.1.0
 
 ## Demo Video Placeholder
 
-Replace with the final max 5-minute video URL before submission.
+https://github.com/Lukeknow0/paid-bounty-triage-agent/releases/download/v0.1.0/paid-bounty-triage-demo.mp4
