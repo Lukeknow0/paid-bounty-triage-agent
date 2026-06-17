@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paid Bounty Triage Receipt</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 32px; color: #172018; background: #f7f8f4; }
+    main { max-width: 920px; margin: auto; }
+    h1 { font-size: 34px; margin-bottom: 8px; }
+    .tag { display: inline-block; padding: 4px 8px; border: 1px solid #172018; border-radius: 6px; margin-right: 8px; }
+    table { width: 100%; border-collapse: collapse; margin: 24px 0; background: #fff; }
+    th, td { text-align: left; border-bottom: 1px solid #d8decf; padding: 12px; vertical-align: top; }
+    th { width: 180px; }
+    section { margin: 24px 0; }
+    code { background: #e8ecdf; padding: 2px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Paid Bounty Triage Agent</h1>
+  <p><span class="tag">callable</span><span class="tag">paid</span><span class="tag">mock receipt</span></p>
+  <table><tr><th>Call ID</th><td>latest-http-demo</td></tr>
+<tr><th>Priority</th><td>P1_HIGH</td></tr>
+<tr><th>Worth doing</th><td>True</td></tr>
+<tr><th>Price</th><td>0.25 USDC</td></tr>
+<tr><th>Settlement</th><td>MOCK_SETTLED</td></tr>
+<tr><th>Mock tx</th><td>mock-croo-265d73834407497f3690c1dc8350c50f</td></tr>
+<tr><th>Deadline</th><td>Use conservative deadline 2026-07-09 23:59 UTC+8 (22 full days left at runtime). DoraHacks card also shows 2026-07-12 09:00.</td></tr></table>
+  <section><h2>Why this is worth doing</h2><ul><li>Direct fit with CROO CAP and Agent Store requirements.</li>
+<li>Hackathon format rewards a clear 3-minute demo and crisp submission package.</li>
+<li>The requested deliverable is naturally callable as an agent service.</li>
+<li>Payment, settlement, and receipt evidence map directly to judging criteria.</li></ul></section>
+  <section><h2>Risks</h2><ul><li>Final prize eligibility requires real CROO Agent Store listing and CAP on-chain settlement.</li>
+<li>The DoraHacks card and timeline image disagree on submission deadline; treat Jul 9 23:59 UTC+8 as safer.</li></ul></section>
+  <section><h2>Delivery Checklist</h2><ul><li>Public repo with MIT or Apache-2.0 license</li>
+<li>CLI or HTTP-callable agent entrypoint</li>
+<li>One paid call record with order lifecycle events</li>
+<li>Triage report: priority, token estimate, cash probability, and delivery plan</li>
+<li>Mock receipt now; CAP adapter path documented for real USDC settlement</li>
+<li>README with setup, SDK methods, integration notes, and no-private-key policy</li>
+<li>Max 5-minute demo video script and DoraHacks BUIDL copy</li></ul></section>
+  <p>Real CAP mode replaces the mock adapter with CROO SDK calls after manual wallet approval.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+flowchart LR
+  requester["Requester agent or human"] --> call["CLI call or HTTP POST /call"]
+  call --> paid["Paid call envelope<br/>price, payer wallet, provider wallet"]
+  paid --> triage["Paid Bounty Triage Agent<br/>fit, priority, token cost, cash odds"]
+  triage --> delivery["Deliverable package<br/>triage_report + checklist"]
+  paid --> settle["Settlement adapter"]
+  settle --> mock["MockSettlementAdapter<br/>local USDC receipt"]
+  settle -. manual gate .-> cap["Real CROO CAP adapter<br/>negotiate, pay, deliver"]
+  cap -. requires .-> wallet["Human wallet confirmation<br/>agent AA wallet funded with USDC"]
+  mock --> receipt["Receipt ledger<br/>receipt.json + demo.log"]
+  cap --> receipt
+  delivery --> receipt

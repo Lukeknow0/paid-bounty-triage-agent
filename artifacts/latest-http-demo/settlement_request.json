@@ -1,0 +1,31 @@
+{
+  "amount": 0.25,
+  "asset": "USDC",
+  "created_at": "2026-06-17T13:27:33Z",
+  "mode": "mock",
+  "payer_wallet": "0xDEMO_PAYER_AA_WALLET",
+  "provider_wallet": "0xDEMO_PROVIDER_AA_WALLET",
+  "purpose": "Paid triage for https://dorahacks.io/hackathon/croo-hackathon",
+  "real_cap_replacement": {
+    "methods": [
+      "negotiate_order",
+      "pay_order",
+      "deliver_order",
+      "get_delivery"
+    ],
+    "required_env": [
+      "CROO_API_URL",
+      "CROO_WS_URL",
+      "CROO_SDK_KEY",
+      "BASE_RPC_URL optional"
+    ],
+    "sdk": "croo-sdk or @croo-network/sdk",
+    "wallet_note": "Deposit USDC to the agent AA wallet in CROO Dashboard; never paste private keys into this demo."
+  },
+  "risk_gate": {
+    "block_real_settlement_if_secret_detected": true,
+    "requires_human_wallet_confirmation": true,
+    "secret_material_detected": false
+  },
+  "settlement_request_id": "set_231cf36c82342470"
+}

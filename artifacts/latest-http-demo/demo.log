@@ -1,0 +1,5 @@
+[2026-06-17T13:27:33Z] CALL latest-http-demo https://dorahacks.io/hackathon/croo-hackathon
+[2026-06-17T13:27:33Z] TRIAGE priority=P1_HIGH worth_doing=True
+[2026-06-17T13:27:33Z] SETTLEMENT mode=mock status=MOCK_SETTLED amount=0.25 USDC
+[2026-06-17T13:27:33Z] RECEIPT mock-croo-265d73834407497f3690c1dc8350c50f digest=3a6fb8f0f14a31aee379af061c8968abb44891bb552719c74afe63755eb3c0ee
+[2026-06-17T13:27:33Z] ARTIFACTS artifacts/latest-http-demo

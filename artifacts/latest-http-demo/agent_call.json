@@ -1,0 +1,30 @@
+{
+  "call_id": "latest-http-demo",
+  "called_at": "2026-06-17T13:27:33Z",
+  "cap_lifecycle_model": [
+    "negotiate_order",
+    "accept_negotiation",
+    "pay_order",
+    "deliver_order",
+    "get_delivery"
+  ],
+  "input": {
+    "platform": "DoraHacks",
+    "title": "CROO Agent Hackathon",
+    "url": "https://dorahacks.io/hackathon/croo-hackathon"
+  },
+  "payer_wallet": "0xDEMO_PAYER_AA_WALLET",
+  "price_usdc": 0.25,
+  "provider_agent": "paid-bounty-triage-agent",
+  "provider_wallet": "0xDEMO_PROVIDER_AA_WALLET",
+  "requester_agent": "judge-demo-requester",
+  "service": {
+    "call_surface": [
+      "CLI: paid_bounty_agent.py call",
+      "HTTP: POST /call"
+    ],
+    "intended_croo_track": "Research & Intelligence Agents",
+    "name": "Paid Bounty Triage Agent",
+    "version": "0.1.0"
+  }
+}

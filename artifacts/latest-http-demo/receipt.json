@@ -1,0 +1,37 @@
+{
+  "adapter": "mock-croo-cap",
+  "amount": 0.25,
+  "asset": "USDC",
+  "chain": "local mock; real adapter targets Base mainnet via CROO CAP",
+  "events": [
+    {
+      "at": "2026-06-17T13:27:33Z",
+      "event": "NEGOTIATION_CREATED",
+      "status": "ok"
+    },
+    {
+      "at": "2026-06-17T13:27:33Z",
+      "event": "ORDER_CREATED",
+      "status": "ok"
+    },
+    {
+      "at": "2026-06-17T13:27:33Z",
+      "event": "ORDER_PAID",
+      "status": "mock_paid"
+    },
+    {
+      "at": "2026-06-17T13:27:33Z",
+      "event": "ORDER_COMPLETED",
+      "status": "delivered"
+    }
+  ],
+  "explorer": null,
+  "human_wallet_confirmation_gate": {
+    "demo_status": "mocked_after_policy_check",
+    "private_keys_handled": false,
+    "required_in_real_mode": true
+  },
+  "receipt_digest": "3a6fb8f0f14a31aee379af061c8968abb44891bb552719c74afe63755eb3c0ee",
+  "settlement_status": "MOCK_SETTLED",
+  "tx_hash": "mock-croo-265d73834407497f3690c1dc8350c50f"
+}

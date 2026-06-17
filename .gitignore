@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+.playwright-cli/
+
+# Keep the canonical verified evidence, ignore extra local verification runs.
+artifacts/*
+!artifacts/latest-http-demo/
+!artifacts/latest-http-demo/**
+
+# Local release bundles.
+dist/

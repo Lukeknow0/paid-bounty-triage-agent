@@ -1,0 +1,45 @@
+{
+  "cash_probability": {
+    "mock_only": 0.12,
+    "note": "Judges weight technical CAP execution and A2A order data heavily; mock-only is demo evidence, not final eligibility.",
+    "with_real_cap_orders": 0.28
+  },
+  "deadline_note": "Use conservative deadline 2026-07-09 23:59 UTC+8 (22 full days left at runtime). DoraHacks card also shows 2026-07-12 09:00.",
+  "delivery_checklist": [
+    "Public repo with MIT or Apache-2.0 license",
+    "CLI or HTTP-callable agent entrypoint",
+    "One paid call record with order lifecycle events",
+    "Triage report: priority, token estimate, cash probability, and delivery plan",
+    "Mock receipt now; CAP adapter path documented for real USDC settlement",
+    "README with setup, SDK methods, integration notes, and no-private-key policy",
+    "Max 5-minute demo video script and DoraHacks BUIDL copy"
+  ],
+  "next_actions": [
+    "Record one HTTP POST /call demo for judge-friendly proof of callability.",
+    "List service on CROO Agent Store and replace MockSettlementAdapter with CAP SDK calls.",
+    "Run at least 3 outside-agent or teammate calls before final submission if possible."
+  ],
+  "platform": "DoraHacks",
+  "priority": "P1_HIGH",
+  "reasons": [
+    "Direct fit with CROO CAP and Agent Store requirements.",
+    "Hackathon format rewards a clear 3-minute demo and crisp submission package.",
+    "The requested deliverable is naturally callable as an agent service.",
+    "Payment, settlement, and receipt evidence map directly to judging criteria."
+  ],
+  "recommended_track": "Research & Intelligence Agents",
+  "risks": [
+    "Final prize eligibility requires real CROO Agent Store listing and CAP on-chain settlement.",
+    "The DoraHacks card and timeline image disagree on submission deadline; treat Jul 9 23:59 UTC+8 as safer."
+  ],
+  "title": "CROO Agent Hackathon",
+  "token_estimate": {
+    "input_tokens": 3375,
+    "notional_cost_usd": 0.0119,
+    "output_tokens": 1400,
+    "pricing_note": "Demo estimate only: configurable at implementation time; no provider price is hard-coded into settlement.",
+    "total_tokens": 4775
+  },
+  "url": "https://dorahacks.io/hackathon/croo-hackathon",
+  "worth_doing": true
+}

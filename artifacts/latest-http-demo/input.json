@@ -1,0 +1,12 @@
+{
+  "depth": "standard",
+  "payer_wallet": "0xDEMO_PAYER_AA_WALLET",
+  "price_usdc": 0.25,
+  "provider_agent": "paid-bounty-triage-agent",
+  "provider_wallet": "0xDEMO_PROVIDER_AA_WALLET",
+  "requester_agent": "judge-demo-requester",
+  "run_id": "latest-http-demo",
+  "settlement_mode": "mock",
+  "title": "CROO Agent Hackathon",
+  "url": "https://dorahacks.io/hackathon/croo-hackathon"
+}
