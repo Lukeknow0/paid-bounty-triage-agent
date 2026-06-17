@@ -75,6 +75,10 @@ The README documents:
 
 https://github.com/Lukeknow0/paid-bounty-triage-agent
 
+## Release Artifact
+
+https://github.com/Lukeknow0/paid-bounty-triage-agent/releases/tag/v0.1.0
+
 ## Demo Video Placeholder
 
 Replace with the final max 5-minute video URL before submission.

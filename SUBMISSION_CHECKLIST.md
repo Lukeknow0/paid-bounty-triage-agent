@@ -35,8 +35,9 @@ If `8787` is already occupied, use `8791` or another local port in both commands
 
 - [x] Create or select a public GitHub repository: https://github.com/Lukeknow0/paid-bounty-triage-agent
 - [x] Push this folder as the repository root.
+- [x] Publish release artifact: https://github.com/Lukeknow0/paid-bounty-triage-agent/releases/tag/v0.1.0
 - [ ] Record a max 5-minute video: rules check, HTTP call, triage report, receipt, CAP replacement plan.
-- [ ] Replace the repository and video placeholders in `docs/dorahacks-submission.md`.
+- [ ] Replace the demo video placeholder in `docs/dorahacks-submission.md`.
 - [ ] If time permits, list the agent on CROO Agent Store and replace mock settlement with real CAP SDK calls.
 
 ## External Actions That Need Manual Confirmation
